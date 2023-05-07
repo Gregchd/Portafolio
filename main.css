@@ -18,6 +18,8 @@ body{
 nav{
     color: #fff;
     position: fixed;
+    left: 50%;
+        transform: translateX(-50%);
 }
 
 ul{
@@ -33,7 +35,7 @@ li{
 
 section{
     color:#fff;
-    font-size: 120px;
+    
     align-items: center;
     text-align: center;
     height: 100vh;
@@ -42,5 +44,108 @@ section{
 }
 
 .contenedor{
-    width: 400vh;
+    width: 500vh;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+a {
+    color: #fff;
+}
+
+#seccion-1{
+    background-color: #252525;
+    font-size: 80px;
+    color: #ffff;
+}
+
+#seccion-2 {
+    background-color: #252525;
+    font-size: 10px;
+    color: #ffff;
+    display: flex;
+}
+
+#seccion-3 {
+    background-color: #252525;
+    color: #ffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#seccion-4 {
+    background-color: #252525;
+    font-size: 80px;
+    color: #ffff;
+}
+
+#seccion-5 {
+    background-color: #252525;
+    color: #ffff;
+    display: flex;
+    display: wrap;
+    justify-content: center;
+}
+
+#desc{
+    width: 70vw;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+}
+
+#tdesc{
+    font-size: 25px;
+}
+
+#parrafo{
+    margin-right: 45px;
+}
+
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80vw;
+}
+
+#card{
+    width: 300px;
+    height: 300px;
+    box-shadow: 14px 14px 18px 14px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 15px;
+    margin: 30px;
+}
+
+#card img{
+    margin-top: 45px;
+}
+
+#card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#subT{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+#cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#socialc{
+    width: 200px;
+    height: 200px;
 }
